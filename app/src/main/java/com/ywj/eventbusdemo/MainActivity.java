@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
       Toast.makeText(MainActivity.this, "初次使用", Toast.LENGTH_SHORT).show();
         String name=event.name;
         String sex=event.sex;
-        Log.e("TAG", "gjdaf;ddddddddggggggggggggggggggg"+name+sex);
+        Log.e("TAG", "输出："+name+sex);
         finish();
     }
     @Override
